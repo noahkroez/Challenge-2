@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#txt {
+    width: auto;
+    padding: 2% 2% 2% 2%;
+    color: red;
+    font-family: verdana;
+    margin-top: 17%;
+    font-size: 122px;
+}
