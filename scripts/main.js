@@ -42,7 +42,7 @@ TweenMax.from('#txt', 2, {
 
 var h1animation = document.getElementById("h1animation");
 TweenMax.from('#h1animation', 2, {
-    y: '-200px',
+    y: '-150px',
     autoAlpha: 0,
     ease: Power2.easeIn
 });
