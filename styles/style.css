@@ -6,8 +6,36 @@
 #txt {
     width: auto;
     padding: 2% 2% 2% 2%;
-    color: greenyellow;
+    color: white;
     font-family: verdana;
     margin-top: 17%;
     font-size: 122px;
+}
+
+@media only screen and (max-width: 600px) {
+    #txt {
+        font-size: 48px;
+
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #txt {
+        font-size: 68px;
+
+    }
+}
+
+@media only screen and (min-width: 825px) {
+    #txt {
+        font-size: 96px;
+
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #txt {
+        font-size: 122px;
+
+    }
 }
