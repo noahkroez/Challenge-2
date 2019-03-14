@@ -31,4 +31,20 @@ TweenMax.to("html", 2, {
     backgroundColor: color
 });
 
+//animation for clock
+
+var animation = document.getElementById("txt");
+TweenMax.from('#txt', 2, {
+    y: '-200px',
+    autoAlpha: 0,
+    ease: Power2.easeInOut
+});
+
+var h1animation = document.getElementById("h1animation");
+TweenMax.from('#h1animation', 2, {
+    y: '-200px',
+    autoAlpha: 0,
+    ease: Power2.easeIn
+});
+
 startTime();

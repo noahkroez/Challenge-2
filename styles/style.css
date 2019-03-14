@@ -7,14 +7,18 @@ h1 {
     display: flex;
     justify-content: center;
     width: auto;
-    color: white;
+    color: black;
     font-family: verdana;
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
 }
 
 span.GMT {
     font-family: verdana;
     font-weight: 100;
-    color: white;
+    color: black;
 }
 
 #txt {
